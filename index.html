@@ -4,54 +4,54 @@
 
 <head>
    <meta charset="utf-8">
-   <title>MEDINOVA - Hospital Website Template</title>
+   <title>your Hospital</title>
    <meta content="width=device-width, initial-scale=1.0" name="viewport">
    <meta content="Free HTML Templates" name="keywords">
    <meta content="Free HTML Templates" name="description">
 
-   <link href="assets/img/favicon.html" rel="icon">
-
-   <link rel="preconnect" href="https://fonts.gstatic.com/">
-   <link href="assets/css/plugins/fonts.css" rel="stylesheet">
-   <link href="assets/css/plugins/font-awesome.min.css" rel="stylesheet">
-   <link href="assets/css/plugins/bootstrap-icon.css" rel="stylesheet">
-   <link href="assets/css/plugins/owl.carousel.min.css" rel="stylesheet">
-   <link href="assets/css/plugins/tempusdominus-bootstrap-4.min.css" rel="stylesheet" />
+   <link href="assets/img/doctor.avif" rel="icon">
+   <!----------------------- bootstrap.min.css ----------------------->
    <link href="assets/css/plugins/bootstrap.min.css" rel="stylesheet">
+   <!----------------------- bootstrap-icons ----------------------->
+   <link href="assets/css/plugins/bootstrap-icons.min.css" rel="stylesheet">
+   <!----------------------- owl.carousel ----------------------->
+   <link href="assets/css/plugins/owl.carousel.min.css" rel="stylesheet">
+   <!----------------------- style ----------------------->
    <link href="assets/css/style.css" rel="stylesheet">
 </head>
 
 <body>
 
-   <div class="container-fluid py-2 border-bottom d-none d-lg-block">
+   <div class="container-fluid d-none d-lg-block" id="home">
       <div class="container">
-         <div class="row">
-            <div class="col-md-6 text-center text-lg-start mb-2 mb-lg-0">
-               <div class="d-inline-flex align-items-center">
-                  <a class="text-decoration-none text-body pe-3" href><i class="bi bi-telephone me-2"></i>+012 345
+         <div class="row bgClr ">
+            <div class="col-md-6 py-2 clip text-center text-lg-start mb-2 mb-lg-0">
+               <div class="d-inline-flex align-items-center ">
+                  <a class="text-decoration-none pe-3 text-white d-flex align-items-center" href><i
+                        class="d-flex align-items-center bi bi-telephone me-2"></i>+012 345
                      6789</a>
-                  <span class="text-body">|</span>
-                  <a class="text-decoration-none text-body px-3" href><i class="bi bi-envelope me-2"></i><span
-                        class="__cf_email__"
+                  <span class="text-white">|</span>
+                  <a class="text-decoration-none text-white d-flex align-items-center px-3" href><i
+                        class="d-flex align-items-center bi bi-envelope me-2"></i><span class="__cf_email__"
                         data-cfemail="85ecebe3eac5e0fde4e8f5e9e0abe6eae8">[email&#160;protected]</span></a>
                </div>
             </div>
-            <div class="col-md-6 text-center text-lg-end">
+            <div class="col-md-6 py-2 text-center text-lg-end">
                <div class="d-inline-flex align-items-center">
-                  <a class="text-body px-2" href>
-                     <i class="fab fa-facebook-f"></i>
+                  <a class="text-white px-2" href>
+                     <i class="bi bi-facebook"></i>
                   </a>
-                  <a class="text-body px-2" href>
-                     <i class="fab fa-twitter"></i>
+                  <a class="text-white px-2" href>
+                     <i class="bi bi-twitter"></i>
                   </a>
-                  <a class="text-body px-2" href>
-                     <i class="fab fa-linkedin-in"></i>
+                  <a class="text-white px-2" href>
+                     <i class="bi bi-linkedin"></i>
                   </a>
-                  <a class="text-body px-2" href>
-                     <i class="fab fa-instagram"></i>
+                  <a class="text-white px-2" href>
+                     <i class="bi bi-instagram"></i>
                   </a>
-                  <a class="text-body ps-2" href>
-                     <i class="fab fa-youtube"></i>
+                  <a class="text-white ps-2" href>
+                     <i class="bi bi-youtube"></i>
                   </a>
                </div>
             </div>
@@ -63,30 +63,23 @@
    <div class="container-fluid sticky-top bg-white shadow-sm">
       <div class="container">
          <nav class="navbar navbar-expand-lg bg-white navbar-light py-3 py-lg-0">
-            <a href="index-2.html" class="navbar-brand">
-               <h1 class="m-0 text-uppercase text-primary"><i class="fa fa-clinic-medical me-2"></i>Medinova</h1>
+            <a href="index.html" class="navbar-brand">
+               <h1 class="m-0 text-uppercase dark"><i class="bi  bi-house-add-fill me-2"></i>your hospital</h1>
             </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
                <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarCollapse">
-               <div class="navbar-nav ms-auto py-0">
-                  <a href="index-2.html" class="nav-item nav-link active">Home</a>
-                  <a href="about.html" class="nav-item nav-link">About</a>
-                  <a href="service.html" class="nav-item nav-link">Service</a>
-                  <a href="price.html" class="nav-item nav-link">Pricing</a>
-                  <div class="nav-item dropdown">
-                     <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Pages</a>
-                     <div class="dropdown-menu m-0">
-                        <a href="blog.html" class="dropdown-item">Blog Grid</a>
-                        <a href="detail.html" class="dropdown-item">Blog Detail</a>
-                        <a href="team.html" class="dropdown-item">The Team</a>
-                        <a href="testimonial.html" class="dropdown-item">Testimonial</a>
-                        <a href="appointment.html" class="dropdown-item">Appointment</a>
-                        <a href="search.html" class="dropdown-item">Search</a>
-                     </div>
-                  </div>
-                  <a href="contact.html" class="nav-item nav-link">Contact</a>
+               <div class="navbar-nav ms-auto py-0 d-flex align-items-center justify-content-between">
+                  <a href="#home" class="nav-item nav-link active">Home</a>
+                  <a href="#about" class="nav-item nav-link">About</a>
+                  <a href="#service" class="nav-item nav-link">Service</a>
+                  <a href="#price" class="nav-item nav-link">Pricing</a>                 
+                  <a href="#contact" class="nav-item nav-link">Contact</a>
+                  <span class="darkMode" id="darkMode">
+                     <i class="bi bi-sun darkIcon" id="darkIcon"></i>
+                     <!-- <i class="fas fa-moon whiteIcon" id="whiteIcon"></i> -->
+                  </span>
                </div>
             </div>
          </nav>
@@ -98,8 +91,8 @@
       <div class="container py-5">
          <div class="row justify-content-start">
             <div class="col-lg-8 text-center text-lg-start">
-               <h5 class="d-inline-block text-primary text-uppercase border-bottom border-5"
-                  style="border-color: rgba(256, 256, 256, .3) !important;">Welcome To Medinova</h5>
+               <h5 class="d-inline-block text-white text-uppercase border-bottom border-5"
+                  style="border-color: rgb(255, 255, 255) !important;">Welcome To your hospital</h5>
                <h1 class="display-1 text-white mb-md-4">Best Healthcare Solution In Your City</h1>
                <div class="pt-2">
                   <a href class="btn btn-light rounded-pill py-md-3 px-md-5 mx-2">Find Doctor</a>
@@ -110,19 +103,19 @@
       </div>
    </div>
 
-
-   <div class="container-fluid py-5">
+   <!--------------------- about_area start --------------------->
+   <div class="container-fluid py-5" id="about">
       <div class="container">
          <div class="row gx-5">
             <div class="col-lg-5 mb-5 mb-lg-0" style="min-height: 500px;">
                <div class="position-relative h-100">
-                  <img class="position-absolute w-100 h-100 rounded" src="assets/img/about.jpg"
+                  <img class="position-absolute w-100 h-100 rounded" src="assets/img/doctor.avif"
                      style="object-fit: cover;">
                </div>
             </div>
             <div class="col-lg-7">
                <div class="mb-4">
-                  <h5 class="d-inline-block text-primary text-uppercase border-bottom border-5">About Us</h5>
+                  <h5 class="d-inline-block dark text-uppercase border-bottom border-5">About Us</h5>
                   <h1 class="display-4">Best Medical Care For Yourself and Your Family</h1>
                </div>
                <p>Tempor erat elitr at rebum at at clita aliquyam consetetur. Diam dolor diam ipsum et, tempor voluptua
@@ -132,48 +125,52 @@
                </p>
                <div class="row g-3 pt-3">
                   <div class="col-sm-3 col-6">
-                     <div class="bg-light text-center rounded-circle py-4">
-                        <i class="fa fa-3x fa-user-md text-primary mb-3"></i>
-                        <h6 class="mb-0">Qualified<small class="d-block text-primary">Doctors</small></h6>
+                     <div class="text-center rounded-circle py-4">
+                        <i class="bi bi-person-fill-add dark mb-3"></i>
+                        <h6 class="mb-0">Qualified<small class="d-block dark">Doctors</small></h6>
                      </div>
                   </div>
                   <div class="col-sm-3 col-6">
-                     <div class="bg-light text-center rounded-circle py-4">
-                        <i class="fa fa-3x fa-procedures text-primary mb-3"></i>
-                        <h6 class="mb-0">Emergency<small class="d-block text-primary">Services</small></h6>
+                     <div class="text-center rounded-circle py-4">
+                        <i class="bi  bi-hospital-fill dark mb-3"></i>
+                        <h6 class="mb-0">Emergency<small class="d-block dark">Services</small></h6>
                      </div>
                   </div>
                   <div class="col-sm-3 col-6">
-                     <div class="bg-light text-center rounded-circle py-4">
-                        <i class="fa fa-3x fa-microscope text-primary mb-3"></i>
-                        <h6 class="mb-0">Accurate<small class="d-block text-primary">Testing</small></h6>
+                     <div class=" text-center rounded-circle py-4">
+                        <i class="bi bi-mic-fill dark mb-3"></i>
+                        <h6 class="mb-0">Accurate<small class="d-block dark">Testing</small></h6>
                      </div>
                   </div>
                   <div class="col-sm-3 col-6">
-                     <div class="bg-light text-center rounded-circle py-4">
-                        <i class="fa fa-3x fa-ambulance text-primary mb-3"></i>
-                        <h6 class="mb-0">Free<small class="d-block text-primary">Ambulance</small></h6>
+                     <div class=" text-center rounded-circle py-4">
+                        <i class="bi bi-car-front-fill dark mb-3"></i>
+                        <h6 class="mb-0">Free<small class="d-block dark">Ambulance</small></h6>
                      </div>
+                  </div>
+                  <div class="d-flex justify-content-center w-100">
+                     <a href="about.html" class="btn btn-info d-flex w-25 justify-content-center">Read more</a>
                   </div>
                </div>
             </div>
          </div>
       </div>
    </div>
+   <!--------------------- about_area end --------------------->
 
-
-   <div class="container-fluid py-5">
+   <!--------------------- service_area start --------------------->
+   <div class="container-fluid py-5" id="service">
       <div class="container">
          <div class="text-center mx-auto mb-5" style="max-width: 500px;">
-            <h5 class="d-inline-block text-primary text-uppercase border-bottom border-5">Services</h5>
+            <h5 class="d-inline-block dark text-uppercase border-bottom border-5">Services</h5>
             <h1 class="display-4">Excellent Medical Services</h1>
          </div>
          <div class="row g-5">
             <div class="col-lg-4 col-md-6">
                <div
-                  class="service-item bg-light rounded d-flex flex-column align-items-center justify-content-center text-center">
+                  class="service-item rounded d-flex flex-column align-items-center justify-content-center text-center">
                   <div class="service-icon mb-4">
-                     <i class="fa fa-2x fa-user-md text-white"></i>
+                     <i class="bi bi-person-fill text-white"></i>
                   </div>
                   <h4 class="mb-3">Emergency Care</h4>
                   <p class="m-0">Kasd dolor no lorem nonumy sit labore tempor at justo rebum rebum stet, justo elitr
@@ -185,9 +182,9 @@
             </div>
             <div class="col-lg-4 col-md-6">
                <div
-                  class="service-item bg-light rounded d-flex flex-column align-items-center justify-content-center text-center">
+                  class="service-item rounded d-flex flex-column align-items-center justify-content-center text-center">
                   <div class="service-icon mb-4">
-                     <i class="fa fa-2x fa-procedures text-white"></i>
+                     <i class="bi bi-scissors text-white"></i>
                   </div>
                   <h4 class="mb-3">Operation & Surgery</h4>
                   <p class="m-0">Kasd dolor no lorem nonumy sit labore tempor at justo rebum rebum stet, justo elitr
@@ -199,9 +196,9 @@
             </div>
             <div class="col-lg-4 col-md-6">
                <div
-                  class="service-item bg-light rounded d-flex flex-column align-items-center justify-content-center text-center">
+                  class="service-item  rounded d-flex flex-column align-items-center justify-content-center text-center">
                   <div class="service-icon mb-4">
-                     <i class="fa fa-2x fa-stethoscope text-white"></i>
+                     <i class="bi bi-journal-check text-white"></i>
                   </div>
                   <h4 class="mb-3">Outdoor Checkup</h4>
                   <p class="m-0">Kasd dolor no lorem nonumy sit labore tempor at justo rebum rebum stet, justo elitr
@@ -213,9 +210,9 @@
             </div>
             <div class="col-lg-4 col-md-6">
                <div
-                  class="service-item bg-light rounded d-flex flex-column align-items-center justify-content-center text-center">
+                  class="service-item  rounded d-flex flex-column align-items-center justify-content-center text-center">
                   <div class="service-icon mb-4">
-                     <i class="fa fa-2x fa-ambulance text-white"></i>
+                     <i class="bi bi-car-front-fill text-white"></i>
                   </div>
                   <h4 class="mb-3">Ambulance Service</h4>
                   <p class="m-0">Kasd dolor no lorem nonumy sit labore tempor at justo rebum rebum stet, justo elitr
@@ -227,9 +224,9 @@
             </div>
             <div class="col-lg-4 col-md-6">
                <div
-                  class="service-item bg-light rounded d-flex flex-column align-items-center justify-content-center text-center">
+                  class="service-item  rounded d-flex flex-column align-items-center justify-content-center text-center">
                   <div class="service-icon mb-4">
-                     <i class="fa fa-2x fa-pills text-white"></i>
+                     <i class="bi bi-capsule-pill text-white"></i>
                   </div>
                   <h4 class="mb-3">Medicine & Pharmacy</h4>
                   <p class="m-0">Kasd dolor no lorem nonumy sit labore tempor at justo rebum rebum stet, justo elitr
@@ -241,9 +238,9 @@
             </div>
             <div class="col-lg-4 col-md-6">
                <div
-                  class="service-item bg-light rounded d-flex flex-column align-items-center justify-content-center text-center">
+                  class="service-item  rounded d-flex flex-column align-items-center justify-content-center text-center">
                   <div class="service-icon mb-4">
-                     <i class="fa fa-2x fa-microscope text-white"></i>
+                     <i class="bi bi-basket3-fill text-white"></i>
                   </div>
                   <h4 class="mb-3">Blood Testing</h4>
                   <p class="m-0">Kasd dolor no lorem nonumy sit labore tempor at justo rebum rebum stet, justo elitr
@@ -253,12 +250,16 @@
                   </a>
                </div>
             </div>
+            <div class="d-flex justify-content-center w-100">
+               <a href="service.html" class="btn btn-info d-flex w-25 justify-content-center">Read more</a>
+            </div>
          </div>
       </div>
    </div>
+   <!--------------------- service_area end --------------------->
 
 
-   <div class="container-fluid bg-primary my-5 py-5">
+   <div class="container-fluid bg-primary my-5 py-5" id="">
       <div class="container py-5">
          <div class="row gx-5">
             <div class="col-lg-6 mb-5 mb-lg-0">
@@ -327,17 +328,17 @@
       </div>
    </div>
 
-
-   <div class="container-fluid py-5">
+   <!--------------------- price_area start --------------------->
+   <div class="container-fluid py-5" id="price">
       <div class="container">
          <div class="text-center mx-auto mb-5" style="max-width: 500px;">
-            <h5 class="d-inline-block text-primary text-uppercase border-bottom border-5">Medical Packages</h5>
+            <h5 class="d-inline-block dark text-uppercase border-bottom border-5">Medical Packages</h5>
             <h1 class="display-4">Awesome Medical Programs</h1>
          </div>
          <div class="owl-carousel price-carousel position-relative" style="padding: 0 45px 45px 45px;">
             <div class="bg-light rounded text-center">
                <div class="position-relative">
-                  <img class="img-fluid rounded-top" src="assets/img/price-1.jpg" alt>
+                  <img class="img-fluid rounded-top" src="assets/img/doctor.avif" alt>
                   <div
                      class="position-absolute w-100 h-100 top-50 start-50 translate-middle rounded-top d-flex flex-column align-items-center justify-content-center"
                      style="background: rgba(29, 42, 77, .8);">
@@ -358,7 +359,7 @@
             </div>
             <div class="bg-light rounded text-center">
                <div class="position-relative">
-                  <img class="img-fluid rounded-top" src="assets/img/price-2.jpg" alt>
+                  <img class="img-fluid rounded-top" src="assets/img/doctor.avif" alt>
                   <div
                      class="position-absolute w-100 h-100 top-50 start-50 translate-middle rounded-top d-flex flex-column align-items-center justify-content-center"
                      style="background: rgba(29, 42, 77, .8);">
@@ -379,7 +380,7 @@
             </div>
             <div class="bg-light rounded text-center">
                <div class="position-relative">
-                  <img class="img-fluid rounded-top" src="assets/img/price-3.jpg" alt>
+                  <img class="img-fluid rounded-top" src="assets/img/doctor.avif" alt>
                   <div
                      class="position-absolute w-100 h-100 top-50 start-50 translate-middle rounded-top d-flex flex-column align-items-center justify-content-center"
                      style="background: rgba(29, 42, 77, .8);">
@@ -401,7 +402,7 @@
             </div>
             <div class="bg-light rounded text-center">
                <div class="position-relative">
-                  <img class="img-fluid rounded-top" src="assets/img/price-4.jpg" alt>
+                  <img class="img-fluid rounded-top" src="assets/img/doctor.avif" alt>
                   <div
                      class="position-absolute w-100 h-100 top-50 start-50 translate-middle rounded-top d-flex flex-column align-items-center justify-content-center"
                      style="background: rgba(29, 42, 77, .8);">
@@ -422,35 +423,40 @@
                </div>
             </div>
          </div>
+         <div class="d-flex justify-content-center w-100">
+            <a href="price.html" class="btn btn-info d-flex w-25 justify-content-center">Read more</a>
+         </div>
+
       </div>
    </div>
+   <!--------------------- price_area end --------------------->
 
 
-   <div class="container-fluid py-5">
+   <div class="container-fluid py-5" id="">
       <div class="container">
          <div class="text-center mx-auto mb-5" style="max-width: 500px;">
-            <h5 class="d-inline-block text-primary text-uppercase border-bottom border-5">Our Doctors</h5>
+            <h5 class="d-inline-block dark text-uppercase border-bottom border-5">Our Doctors</h5>
             <h1 class="display-4">Qualified Healthcare Professionals</h1>
          </div>
          <div class="owl-carousel team-carousel position-relative">
             <div class="team-item">
                <div class="row g-0 bg-light rounded overflow-hidden">
                   <div class="col-12 col-sm-5 h-100">
-                     <img class="img-fluid h-100" src="assets/img/team-1.jpg" style="object-fit: cover;">
+                     <img class="img-fluid h-100" src="assets/img/doctor.avif" style="object-fit: cover;">
                   </div>
                   <div class="col-12 col-sm-7 h-100 d-flex flex-column">
                      <div class="mt-auto p-4">
                         <h3>Doctor Name</h3>
-                        <h6 class="fw-normal fst-italic text-primary mb-4">Cardiology Specialist</h6>
+                        <h6 class="fw-normal fst-italic dark mb-4">Cardiology Specialist</h6>
                         <p class="m-0">Dolor lorem eos dolor duo eirmod sea. Dolor sit magna rebum clita rebum dolor</p>
                      </div>
                      <div class="d-flex mt-auto border-top p-4">
                         <a class="btn btn-lg btn-primary btn-lg-square rounded-circle me-3" href="#"><i
-                              class="fab fa-twitter"></i></a>
+                              class="bi bi-twitter"></i></a>
                         <a class="btn btn-lg btn-primary btn-lg-square rounded-circle me-3" href="#"><i
-                              class="fab fa-facebook-f"></i></a>
+                              class="bi bi-facebook"></i></a>
                         <a class="btn btn-lg btn-primary btn-lg-square rounded-circle" href="#"><i
-                              class="fab fa-linkedin-in"></i></a>
+                              class="bi bi-linkedin"></i></a>
                      </div>
                   </div>
                </div>
@@ -458,21 +464,21 @@
             <div class="team-item">
                <div class="row g-0 bg-light rounded overflow-hidden">
                   <div class="col-12 col-sm-5 h-100">
-                     <img class="img-fluid h-100" src="assets/img/team-2.jpg" style="object-fit: cover;">
+                     <img class="img-fluid h-100" src="assets/img/doctor.avif" style="object-fit: cover;">
                   </div>
                   <div class="col-12 col-sm-7 h-100 d-flex flex-column">
                      <div class="mt-auto p-4">
                         <h3>Doctor Name</h3>
-                        <h6 class="fw-normal fst-italic text-primary mb-4">Cardiology Specialist</h6>
+                        <h6 class="fw-normal fst-italic dark mb-4">Cardiology Specialist</h6>
                         <p class="m-0">Dolor lorem eos dolor duo eirmod sea. Dolor sit magna rebum clita rebum dolor</p>
                      </div>
                      <div class="d-flex mt-auto border-top p-4">
                         <a class="btn btn-lg btn-primary btn-lg-square rounded-circle me-3" href="#"><i
-                              class="fab fa-twitter"></i></a>
+                              class="bi bi-twitter"></i></a>
                         <a class="btn btn-lg btn-primary btn-lg-square rounded-circle me-3" href="#"><i
-                              class="fab fa-facebook-f"></i></a>
+                              class="bi bi-facebook"></i></a>
                         <a class="btn btn-lg btn-primary btn-lg-square rounded-circle" href="#"><i
-                              class="fab fa-linkedin-in"></i></a>
+                              class="bi bi-linkedin"></i></a>
                      </div>
                   </div>
                </div>
@@ -480,21 +486,21 @@
             <div class="team-item">
                <div class="row g-0 bg-light rounded overflow-hidden">
                   <div class="col-12 col-sm-5 h-100">
-                     <img class="img-fluid h-100" src="assets/img/team-3.jpg" style="object-fit: cover;">
+                     <img class="img-fluid h-100" src="assets/img/doctor.avif" style="object-fit: cover;">
                   </div>
                   <div class="col-12 col-sm-7 h-100 d-flex flex-column">
                      <div class="mt-auto p-4">
                         <h3>Doctor Name</h3>
-                        <h6 class="fw-normal fst-italic text-primary mb-4">Cardiology Specialist</h6>
+                        <h6 class="fw-normal fst-italic dark mb-4">Cardiology Specialist</h6>
                         <p class="m-0">Dolor lorem eos dolor duo eirmod sea. Dolor sit magna rebum clita rebum dolor</p>
                      </div>
                      <div class="d-flex mt-auto border-top p-4">
                         <a class="btn btn-lg btn-primary btn-lg-square rounded-circle me-3" href="#"><i
-                              class="fab fa-twitter"></i></a>
+                              class="bi bi-twitter"></i></a>
                         <a class="btn btn-lg btn-primary btn-lg-square rounded-circle me-3" href="#"><i
-                              class="fab fa-facebook-f"></i></a>
+                              class="bi bi-facebook"></i></a>
                         <a class="btn btn-lg btn-primary btn-lg-square rounded-circle" href="#"><i
-                              class="fab fa-linkedin-in"></i></a>
+                              class="bi bi-linkedin"></i></a>
                      </div>
                   </div>
                </div>
@@ -504,7 +510,7 @@
    </div>
 
 
-   <div class="container-fluid bg-primary my-5 py-5">
+   <div class="container-fluid bg-primary my-5 py-5" id="">
       <div class="container py-5">
          <div class="text-center mx-auto mb-5" style="max-width: 500px;">
             <h5 class="d-inline-block text-white text-uppercase border-bottom border-5">Find A Doctor</h5>
@@ -528,10 +534,10 @@
    </div>
 
 
-   <div class="container-fluid py-5">
+   <div class="container-fluid py-5" id="">
       <div class="container">
          <div class="text-center mx-auto mb-5" style="max-width: 500px;">
-            <h5 class="d-inline-block text-primary text-uppercase border-bottom border-5">Testimonial</h5>
+            <h5 class="d-inline-block dark text-uppercase border-bottom border-5">Testimonial</h5>
             <h1 class="display-4">Patients Say About Our Services</h1>
          </div>
          <div class="row justify-content-center">
@@ -539,11 +545,11 @@
                <div class="owl-carousel testimonial-carousel">
                   <div class="testimonial-item text-center">
                      <div class="position-relative mb-5">
-                        <img class="img-fluid rounded-circle mx-auto" src="assets/img/testimonial-1.jpg" alt>
+                        <img class="img-fluid rounded-circle mx-auto" src="assets/img/doctor.avif" alt>
                         <div
                            class="position-absolute top-100 start-50 translate-middle d-flex align-items-center justify-content-center bg-white rounded-circle"
                            style="width: 60px; height: 60px;">
-                           <i class="fa fa-quote-left fa-2x text-primary"></i>
+                           <i class="bi bi-quote fa-2x dark"></i>
                         </div>
                      </div>
                      <p class="fs-4 fw-normal">Dolores sed duo clita tempor justo dolor et stet lorem kasd labore dolore
@@ -551,15 +557,15 @@
                         rebum sit ipsum.</p>
                      <hr class="w-25 mx-auto">
                      <h3>Patient Name</h3>
-                     <h6 class="fw-normal text-primary mb-3">Profession</h6>
+                     <h6 class="fw-normal dark mb-3">Profession</h6>
                   </div>
                   <div class="testimonial-item text-center">
                      <div class="position-relative mb-5">
-                        <img class="img-fluid rounded-circle mx-auto" src="assets/img/testimonial-2.jpg" alt>
+                        <img class="img-fluid rounded-circle mx-auto" src="assets/img/doctor.avif" alt>
                         <div
                            class="position-absolute top-100 start-50 translate-middle d-flex align-items-center justify-content-center bg-white rounded-circle"
                            style="width: 60px; height: 60px;">
-                           <i class="fa fa-quote-left fa-2x text-primary"></i>
+                           <i class="bi bi-quote fa-2x dark"></i>
                         </div>
                      </div>
                      <p class="fs-4 fw-normal">Dolores sed duo clita tempor justo dolor et stet lorem kasd labore dolore
@@ -567,15 +573,15 @@
                         rebum sit ipsum.</p>
                      <hr class="w-25 mx-auto">
                      <h3>Patient Name</h3>
-                     <h6 class="fw-normal text-primary mb-3">Profession</h6>
+                     <h6 class="fw-normal dark mb-3">Profession</h6>
                   </div>
                   <div class="testimonial-item text-center">
                      <div class="position-relative mb-5">
-                        <img class="img-fluid rounded-circle mx-auto" src="assets/img/testimonial-3.jpg" alt>
+                        <img class="img-fluid rounded-circle mx-auto" src="assets/img/doctor.avif" alt>
                         <div
                            class="position-absolute top-100 start-50 translate-middle d-flex align-items-center justify-content-center bg-white rounded-circle"
                            style="width: 60px; height: 60px;">
-                           <i class="fa fa-quote-left fa-2x text-primary"></i>
+                           <i class="bi bi-quote fa-2x dark"></i>
                         </div>
                      </div>
                      <p class="fs-4 fw-normal">Dolores sed duo clita tempor justo dolor et stet lorem kasd labore dolore
@@ -583,7 +589,7 @@
                         rebum sit ipsum.</p>
                      <hr class="w-25 mx-auto">
                      <h3>Patient Name</h3>
-                     <h6 class="fw-normal text-primary mb-3">Profession</h6>
+                     <h6 class="fw-normal dark mb-3">Profession</h6>
                   </div>
                </div>
             </div>
@@ -592,16 +598,16 @@
    </div>
 
 
-   <div class="container-fluid py-5">
+   <div class="container-fluid py-5" id="blog">
       <div class="container">
          <div class="text-center mx-auto mb-5" style="max-width: 500px;">
-            <h5 class="d-inline-block text-primary text-uppercase border-bottom border-5">Blog Post</h5>
+            <h5 class="d-inline-block dark text-uppercase border-bottom border-5">Blog Post</h5>
             <h1 class="display-4">Our Latest Medical Blog Posts</h1>
          </div>
          <div class="row g-5">
             <div class="col-xl-4 col-lg-6">
                <div class="bg-light rounded overflow-hidden">
-                  <img class="img-fluid w-100" src="assets/img/blog-1.jpg" alt>
+                  <img class="img-fluid w-100" src="assets/img/doctor.avif" alt>
                   <div class="p-4">
                      <a class="h3 d-block mb-3" href>Dolor clita vero elitr sea stet dolor justo diam</a>
                      <p class="m-0">Dolor lorem eos dolor duo et eirmod sea. Dolor sit magna
@@ -609,19 +615,19 @@
                   </div>
                   <div class="d-flex justify-content-between border-top p-4">
                      <div class="d-flex align-items-center">
-                        <img class="rounded-circle me-2" src="assets/img/user.jpg" width="25" height="25" alt>
+                        <img class="rounded-circle me-2" src="assets/img/doctor.avif" width="25" height="25" alt>
                         <small>John Doe</small>
                      </div>
                      <div class="d-flex align-items-center">
-                        <small class="ms-3"><i class="far fa-eye text-primary me-1"></i>12345</small>
-                        <small class="ms-3"><i class="far fa-comment text-primary me-1"></i>123</small>
+                        <small class="ms-3"><i class="far fa-eye dark me-1"></i>12345</small>
+                        <small class="ms-3"><i class="far fa-comment dark me-1"></i>123</small>
                      </div>
                   </div>
                </div>
             </div>
             <div class="col-xl-4 col-lg-6">
                <div class="bg-light rounded overflow-hidden">
-                  <img class="img-fluid w-100" src="assets/img/blog-2.jpg" alt>
+                  <img class="img-fluid w-100" src="assets/img/doctor.avif" alt>
                   <div class="p-4">
                      <a class="h3 d-block mb-3" href>Dolor clita vero elitr sea stet dolor justo diam</a>
                      <p class="m-0">Dolor lorem eos dolor duo et eirmod sea. Dolor sit magna
@@ -629,19 +635,19 @@
                   </div>
                   <div class="d-flex justify-content-between border-top p-4">
                      <div class="d-flex align-items-center">
-                        <img class="rounded-circle me-2" src="assets/img/user.jpg" width="25" height="25" alt>
+                        <img class="rounded-circle me-2" src="assets/img/doctor.avif" width="25" height="25" alt>
                         <small>John Doe</small>
                      </div>
                      <div class="d-flex align-items-center">
-                        <small class="ms-3"><i class="far fa-eye text-primary me-1"></i>12345</small>
-                        <small class="ms-3"><i class="far fa-comment text-primary me-1"></i>123</small>
+                        <small class="ms-3"><i class="far fa-eye dark me-1"></i>12345</small>
+                        <small class="ms-3"><i class="far fa-comment dark me-1"></i>123</small>
                      </div>
                   </div>
                </div>
             </div>
             <div class="col-xl-4 col-lg-6">
                <div class="bg-light rounded overflow-hidden">
-                  <img class="img-fluid w-100" src="assets/img/blog-3.jpg" alt>
+                  <img class="img-fluid w-100" src="assets/img/doctor.avif" alt>
                   <div class="p-4">
                      <a class="h3 d-block mb-3" href>Dolor clita vero elitr sea stet dolor justo diam</a>
                      <p class="m-0">Dolor lorem eos dolor duo et eirmod sea. Dolor sit magna
@@ -649,12 +655,12 @@
                   </div>
                   <div class="d-flex justify-content-between border-top p-4">
                      <div class="d-flex align-items-center">
-                        <img class="rounded-circle me-2" src="assets/img/user.jpg" width="25" height="25" alt>
+                        <img class="rounded-circle me-2" src="assets/img/doctor.avif" width="25" height="25" alt>
                         <small>John Doe</small>
                      </div>
                      <div class="d-flex align-items-center">
-                        <small class="ms-3"><i class="far fa-eye text-primary me-1"></i>12345</small>
-                        <small class="ms-3"><i class="far fa-comment text-primary me-1"></i>123</small>
+                        <small class="ms-3"><i class="far fa-eye dark me-1"></i>12345</small>
+                        <small class="ms-3"><i class="far fa-comment dark me-1"></i>123</small>
                      </div>
                   </div>
                </div>
@@ -664,20 +670,23 @@
    </div>
 
 
-   <div class="container-fluid bg-dark text-light mt-5 py-5">
+   <div class="container-fluid bgDrk  text-white mt-5 py-5" id="contact">
       <div class="container py-5">
          <div class="row g-5">
             <div class="col-lg-3 col-md-6">
-               <h4 class="d-inline-block text-primary text-uppercase border-bottom border-5 border-secondary mb-4">Get
+               <h4 class="d-inline-block text-white text-uppercase border-bottom border-2 border-primary mb-4">Get
                   In Touch</h4>
                <p class="mb-4">No dolore ipsum accusam no lorem. Invidunt sed clita kasd clita et et dolor sed dolor</p>
-               <p class="mb-2"><i class="fa fa-map-marker-alt text-primary me-3"></i>123 Street, New York, USA</p>
-               <p class="mb-2"><i class="fa fa-envelope text-primary me-3"></i><a href="" class="__cf_email__"
+               <p class="mb-2"><i class="fa fa-map-marker-alt dark me-3"></i>123 Street, New York, USA</p>
+               <p class="mb-2"><i class="fa fa-envelope dark me-3"></i><a href="" class="__cf_email__"
                      data-cfemail="563f38303916332e373b263a337835393b">[email&#160;protected]</a></p>
-               <p class="mb-0"><i class="fa fa-phone-alt text-primary me-3"></i>+012 345 67890</p>
+               <p class="mb-0"><i class="fa fa-phone-alt dark me-3"></i>+012 345 67890</p>
+               <div class="d-flex w-100">
+                  <a href="contact.html" class="btn btn-info d-flex w-75 justify-content-center">Read more</a>
+               </div>
             </div>
             <div class="col-lg-3 col-md-6">
-               <h4 class="d-inline-block text-primary text-uppercase border-bottom border-5 border-secondary mb-4">Quick
+               <h4 class="d-inline-block text-white text-uppercase border-bottom border-2 border-primary mb-4">Quick
                   Links</h4>
                <div class="d-flex flex-column justify-content-start">
                   <a class="text-light mb-2" href="#"><i class="fa fa-angle-right me-2"></i>Home</a>
@@ -689,7 +698,7 @@
                </div>
             </div>
             <div class="col-lg-3 col-md-6">
-               <h4 class="d-inline-block text-primary text-uppercase border-bottom border-5 border-secondary mb-4">
+               <h4 class="d-inline-block text-white text-uppercase border-bottom border-2 border-primary mb-4">
                   Popular Links</h4>
                <div class="d-flex flex-column justify-content-start">
                   <a class="text-light mb-2" href="#"><i class="fa fa-angle-right me-2"></i>Home</a>
@@ -701,7 +710,7 @@
                </div>
             </div>
             <div class="col-lg-3 col-md-6">
-               <h4 class="d-inline-block text-primary text-uppercase border-bottom border-5 border-secondary mb-4">
+               <h4 class="d-inline-block text-white text-uppercase border-bottom border-2 border-primary mb-4">
                   Newsletter</h4>
                <form action>
                   <div class="input-group">
@@ -709,29 +718,29 @@
                      <button class="btn btn-primary">Sign Up</button>
                   </div>
                </form>
-               <h6 class="text-primary text-uppercase mt-4 mb-3">Follow Us</h6>
+               <h6 class="text-white text-uppercase mt-4 mb-3">Follow Us</h6>
                <div class="d-flex">
                   <a class="btn btn-lg btn-primary btn-lg-square rounded-circle me-2" href="#"><i
-                        class="fab fa-twitter"></i></a>
+                        class="bi bi-twitter"></i></a>
                   <a class="btn btn-lg btn-primary btn-lg-square rounded-circle me-2" href="#"><i
-                        class="fab fa-facebook-f"></i></a>
+                        class="bi bi-facebook"></i></a>
                   <a class="btn btn-lg btn-primary btn-lg-square rounded-circle me-2" href="#"><i
-                        class="fab fa-linkedin-in"></i></a>
+                        class="bi bi-linkedin"></i></a>
                   <a class="btn btn-lg btn-primary btn-lg-square rounded-circle" href="#"><i
-                        class="fab fa-instagram"></i></a>
+                        class="bi bi-instagram"></i></a>
                </div>
             </div>
          </div>
       </div>
    </div>
-   <div class="container-fluid bg-dark text-light border-top border-secondary py-4">
+   <div class="container-fluid bgClr text-light border-top border-secondary py-4">
       <div class="container">
          <div class="row g-5">
             <div class="col-md-6 text-center text-md-start">
-               <p class="mb-md-0">&copy; <a class="text-primary" href="#">Your Site Name</a>. All Rights Reserved.</p>
+               <p class="mb-md-0">&copy; <a class="text-white" href="#">Your Site Name</a>. All Rights Reserved.</p>
             </div>
             <div class="col-md-6 text-center text-md-end">
-               <p class="mb-0">Designed by <a class="text-primary" href="">HTML Codex</a></p>
+               <p class="mb-0">Designed by <a class="text-white" href="">NK NAHID</a></p>
             </div>
          </div>
       </div>
@@ -742,7 +751,7 @@
 
    <script data-cfasync="false" src="assets/js/email-decode.min.js"></script>
    <script src="assets/js/jquery-3.4.1.min.js"></script>
-   <script src="assets/js/bootstrap.bundle.min.js"></script>
+   <script src="assets/js/bootstrap.min.js"></script>
    <script src="assets/js/easing.min.js"></script>
    <script src="assets/js/waypoints.min.js"></script>
    <script src="assets/js/owl.carousel.min.js"></script>
